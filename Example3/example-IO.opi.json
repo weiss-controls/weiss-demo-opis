@@ -3,12 +3,12 @@
     "id": "__grid__",
     "widgetName": "GridZone",
     "properties": {
-      "backgroundColor": "#e9ecef",
+      "backgroundColor": "rgba(52, 68, 87, 1)",
       "gridLineColor": "#dee2e6",
       "gridSize": 5,
-      "gridLineVisible": true,
+      "gridLineVisible": false,
       "snapToGrid": true,
-      "centerVisible": true,
+      "centerVisible": false,
       "macros": {
         "$(P)": "demo:"
       }
@@ -134,7 +134,7 @@
     "id": "TextLabel-957d0bb2-8063-4252-b96b-7b864b72921e",
     "widgetName": "TextLabel",
     "properties": {
-      "label": "Sys2-Sub1:Dis-Dev OPI",
+      "label": "Example: Simple Input/Output",
       "x": -650,
       "y": -235,
       "width": 1250,
@@ -151,7 +151,7 @@
       "textHAlign": "center",
       "textVAlign": "middle",
       "fontBold": true,
-      "textColor": "#000000",
+      "textColor": "rgba(255, 255, 255, 1)",
       "fontItalic": false,
       "fontUnderlined": false
     }
