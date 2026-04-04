@@ -68,8 +68,8 @@
     "widgetName": "TextLabel",
     "properties": {
       "label": "Example: Motion Control",
-      "x": -806,
-      "y": -340,
+      "x": -807,
+      "y": -330,
       "width": 1570,
       "height": 50,
       "backgroundColor": "transparent",
@@ -234,7 +234,7 @@
     "widgetName": "TextLabel",
     "properties": {
       "label": "Random movement control",
-      "x": -32,
+      "x": -31.5,
       "y": 59,
       "width": 791,
       "height": 40,
@@ -285,7 +285,7 @@
     "id": "63703184-a6b6-4e73-acbd-bc1cf33105b3",
     "widgetName": "Group",
     "properties": {
-      "x": 78,
+      "x": 77,
       "y": 137,
       "width": 574,
       "height": 106
@@ -295,7 +295,7 @@
         "id": "ToggleButton-04e7c94a-a481-4977-863e-7bfb2dfa6826",
         "widgetName": "ToggleButton",
         "properties": {
-          "x": 78,
+          "x": 77,
           "y": 137,
           "width": 127,
           "height": 46,
@@ -329,7 +329,7 @@
         "id": "ToggleButton-a83926c4-2f92-4e73-b832-6d552986581d",
         "widgetName": "ToggleButton",
         "properties": {
-          "x": 226,
+          "x": 225,
           "y": 137,
           "width": 127,
           "height": 46,
@@ -363,7 +363,7 @@
         "id": "ToggleButton-b701029e-1027-4b99-9f5a-3c6919bc7525",
         "widgetName": "ToggleButton",
         "properties": {
-          "x": 372,
+          "x": 371,
           "y": 137,
           "width": 127,
           "height": 46,
@@ -397,7 +397,7 @@
         "id": "ToggleButton-e647ceec-6c60-4fb3-8ceb-65a1d7b2617e",
         "widgetName": "ToggleButton",
         "properties": {
-          "x": 523,
+          "x": 522,
           "y": 137,
           "width": 127,
           "height": 46,
@@ -431,7 +431,7 @@
         "id": "ToggleButton-c04e6ee7-0a6d-4916-8fca-9c1d9b40406b",
         "widgetName": "ToggleButton",
         "properties": {
-          "x": 79,
+          "x": 78,
           "y": 197,
           "width": 127,
           "height": 46,
@@ -465,7 +465,7 @@
         "id": "ToggleButton-cd48b39e-6540-49d2-a7bd-f37fb032cd93",
         "widgetName": "ToggleButton",
         "properties": {
-          "x": 228,
+          "x": 227,
           "y": 197,
           "width": 127,
           "height": 46,
@@ -499,7 +499,7 @@
         "id": "ToggleButton-e969737c-7a7f-4555-bb42-110aa787df78",
         "widgetName": "ToggleButton",
         "properties": {
-          "x": 374,
+          "x": 373,
           "y": 197,
           "width": 127,
           "height": 46,
@@ -533,7 +533,7 @@
         "id": "ToggleButton-44456e33-a2d3-4726-8625-470492ad0336",
         "widgetName": "ToggleButton",
         "properties": {
-          "x": 525,
+          "x": 524,
           "y": 197,
           "width": 127,
           "height": 46,
