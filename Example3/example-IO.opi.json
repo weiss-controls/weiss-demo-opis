@@ -208,7 +208,7 @@
           "textColor": "#000000",
           "fontItalic": false,
           "fontUnderlined": false,
-          "pvName": "$(P)bo",
+          "pvName": "$(P)bo03",
           "actionValue": 1,
           "disabled": false
         }
@@ -238,7 +238,7 @@
           "textColor": "#000000",
           "fontItalic": false,
           "fontUnderlined": false,
-          "pvName": "$(P)bo",
+          "pvName": "$(P)bo03",
           "actionValue": "0",
           "disabled": false
         }
@@ -259,7 +259,7 @@
           "visible": true,
           "tooltip": "",
           "alarmBorder": true,
-          "pvName": "$(P)bo",
+          "pvName": "$(P)bo04",
           "disabled": false,
           "labelFromPV": true,
           "useStringVal": true,
@@ -281,7 +281,7 @@
         "id": "InputField-642a339b-6236-4a14-b568-00ad324858d5",
         "widgetName": "InputField",
         "properties": {
-          "pvName": "$(P)ao",
+          "pvName": "$(P)ao05",
           "unitsFromPV": true,
           "units": "",
           "disabled": false,
@@ -323,7 +323,7 @@
           "onColor": "#00ac25",
           "offColor": "#ac0000",
           "square": false,
-          "pvName": "$(P)bi",
+          "pvName": "$(P)bi03",
           "labelFromPV": true,
           "useStringVal": true,
           "offLabel": "",
@@ -359,7 +359,7 @@
           "textColor": "#000000",
           "fontItalic": false,
           "fontUnderlined": false,
-          "pvName": "$(P)mbbo",
+          "pvName": "$(P)mbbo01",
           "disabled": false,
           "enumChoices": [
             ""
@@ -392,7 +392,7 @@
           "textColor": "#000000",
           "fontItalic": false,
           "fontUnderlined": false,
-          "pvName": "$(P)mbbi",
+          "pvName": "$(P)mbbi01",
           "unitsFromPV": true,
           "units": "",
           "precisionFromPV": true,
@@ -420,7 +420,7 @@
           "horizontal": true,
           "invertBitOrder": false,
           "spacing": 1,
-          "pvName": "$(P)ai"
+          "pvName": "$(P)ai05"
         }
       },
       {
@@ -448,7 +448,7 @@
           "textColor": "#000000",
           "fontItalic": false,
           "fontUnderlined": false,
-          "pvName": "$(P)ai",
+          "pvName": "$(P)ai05",
           "unitsFromPV": true,
           "units": "",
           "precisionFromPV": true,
@@ -524,7 +524,7 @@
           "onColor": "rgba(255, 255, 0, 1)",
           "offColor": "rgba(233, 236, 239, 1)",
           "square": true,
-          "pvName": "$(P)bi",
+          "pvName": "$(P)bi04",
           "labelFromPV": true,
           "useStringVal": false,
           "offLabel": "",
@@ -560,7 +560,7 @@
           "textColor": "#000000",
           "fontItalic": false,
           "fontUnderlined": false,
-          "pvName": "$(P)bo",
+          "pvName": "$(P)bo04",
           "disabled": false,
           "enumChoices": [
             ""
@@ -593,7 +593,7 @@
           "textColor": "#000000",
           "fontItalic": false,
           "fontUnderlined": false,
-          "pvName": "$(P)bi",
+          "pvName": "$(P)bi04",
           "unitsFromPV": true,
           "units": "",
           "precisionFromPV": true,
