@@ -1,6 +1,5 @@
 [
   {
-    "id": "__grid__",
     "widgetName": "GridZone",
     "properties": {
       "backgroundColor": "#e9ecef",
@@ -15,9 +14,9 @@
     }
   },
   {
-    "id": "GraphY-ff8e4f43-769c-4b34-ab67-315170dc7810",
     "widgetName": "GraphY",
     "properties": {
+      "alias": "",
       "x": -37,
       "y": -268,
       "width": 802,
@@ -64,10 +63,10 @@
     }
   },
   {
-    "id": "TextLabel-957d0bb2-8063-4252-b96b-7b864b72921e",
     "widgetName": "TextLabel",
     "properties": {
       "label": "Example: Motion Control",
+      "alias": "Title",
       "x": -807,
       "y": -330,
       "width": 1570,
@@ -90,7 +89,6 @@
     }
   },
   {
-    "id": "484e4dce-bf89-4dfd-9d02-0fae5fdf4ed9",
     "widgetName": "Group",
     "properties": {
       "x": -813,
@@ -100,78 +98,14 @@
     },
     "children": [
       {
-        "id": "EmbeddedDisplay-6ad42059-d886-4054-9d6f-07e822531b9e",
         "widgetName": "EmbeddedDisplay",
         "properties": {
-          "x": -620,
-          "y": -269,
-          "tooltip": "",
-          "width": 186,
-          "height": 256,
-          "displayPath": "../_assets/motor-template.opi.json",
-          "macros": {
-            "$(P)": "demo:",
-            "$(M)": "Mtr2"
-          }
-        }
-      },
-      {
-        "id": "EmbeddedDisplay-138d4ee7-7322-48ee-bb60-f2a94e147853",
-        "widgetName": "EmbeddedDisplay",
-        "properties": {
-          "x": -425,
-          "y": -269,
-          "tooltip": "",
-          "width": 186,
-          "height": 256,
-          "displayPath": "../_assets/motor-template.opi.json",
-          "macros": {
-            "$(P)": "demo:",
-            "$(M)": "Mtr3"
-          }
-        }
-      },
-      {
-        "id": "EmbeddedDisplay-d293327d-e3e5-4cdd-8297-9d4cbe3e53c2",
-        "widgetName": "EmbeddedDisplay",
-        "properties": {
-          "x": -231,
-          "y": -269,
-          "tooltip": "",
-          "width": 186,
-          "height": 256,
-          "displayPath": "../_assets/motor-template.opi.json",
-          "macros": {
-            "$(P)": "demo:",
-            "$(M)": "Mtr4"
-          }
-        }
-      },
-      {
-        "id": "EmbeddedDisplay-dafa23a6-c6c1-41e6-a144-6679065e6965",
-        "widgetName": "EmbeddedDisplay",
-        "properties": {
-          "x": -813,
-          "y": -6,
-          "tooltip": "",
-          "width": 186,
-          "height": 256,
-          "displayPath": "../_assets/motor-template.opi.json",
-          "macros": {
-            "$(P)": "demo:",
-            "$(M)": "Mtr5"
-          }
-        }
-      },
-      {
-        "id": "EmbeddedDisplay-ab80ceff-e1bf-4f62-8ff7-7b30b378d5ed",
-        "widgetName": "EmbeddedDisplay",
-        "properties": {
+          "alias": "M1",
           "x": -813,
           "y": -269,
-          "tooltip": "",
           "width": 186,
           "height": 256,
+          "tooltip": "",
           "displayPath": "../_assets/motor-template.opi.json",
           "macros": {
             "$(P)": "demo:",
@@ -180,14 +114,78 @@
         }
       },
       {
-        "id": "EmbeddedDisplay-626baee2-6ebd-4b63-8b08-e241aa53bf89",
         "widgetName": "EmbeddedDisplay",
         "properties": {
+          "alias": "M2",
           "x": -620,
-          "y": -6,
-          "tooltip": "",
+          "y": -269,
           "width": 186,
           "height": 256,
+          "tooltip": "",
+          "displayPath": "../_assets/motor-template.opi.json",
+          "macros": {
+            "$(P)": "demo:",
+            "$(M)": "Mtr2"
+          }
+        }
+      },
+      {
+        "widgetName": "EmbeddedDisplay",
+        "properties": {
+          "alias": "M3",
+          "x": -425,
+          "y": -269,
+          "width": 186,
+          "height": 256,
+          "tooltip": "",
+          "displayPath": "../_assets/motor-template.opi.json",
+          "macros": {
+            "$(P)": "demo:",
+            "$(M)": "Mtr3"
+          }
+        }
+      },
+      {
+        "widgetName": "EmbeddedDisplay",
+        "properties": {
+          "alias": "M4",
+          "x": -231,
+          "y": -269,
+          "width": 186,
+          "height": 256,
+          "tooltip": "",
+          "displayPath": "../_assets/motor-template.opi.json",
+          "macros": {
+            "$(P)": "demo:",
+            "$(M)": "Mtr4"
+          }
+        }
+      },
+      {
+        "widgetName": "EmbeddedDisplay",
+        "properties": {
+          "alias": "M5",
+          "x": -813,
+          "y": -6,
+          "width": 186,
+          "height": 256,
+          "tooltip": "",
+          "displayPath": "../_assets/motor-template.opi.json",
+          "macros": {
+            "$(P)": "demo:",
+            "$(M)": "Mtr5"
+          }
+        }
+      },
+      {
+        "widgetName": "EmbeddedDisplay",
+        "properties": {
+          "alias": "M6",
+          "x": -620,
+          "y": -6,
+          "width": 186,
+          "height": 256,
+          "tooltip": "",
           "displayPath": "../_assets/motor-template.opi.json",
           "macros": {
             "$(P)": "demo:",
@@ -196,14 +194,14 @@
         }
       },
       {
-        "id": "EmbeddedDisplay-78b582ed-a8af-48ab-8667-e4beb41d71a9",
         "widgetName": "EmbeddedDisplay",
         "properties": {
+          "alias": "M7",
           "x": -425,
           "y": -6,
-          "tooltip": "",
           "width": 186,
           "height": 256,
+          "tooltip": "",
           "displayPath": "../_assets/motor-template.opi.json",
           "macros": {
             "$(P)": "demo:",
@@ -212,14 +210,14 @@
         }
       },
       {
-        "id": "EmbeddedDisplay-bb27f15e-a2f7-4598-917e-5915a48cbb71",
         "widgetName": "EmbeddedDisplay",
         "properties": {
+          "alias": "M8",
           "x": -231,
           "y": -6,
-          "tooltip": "",
           "width": 186,
           "height": 256,
+          "tooltip": "",
           "displayPath": "../_assets/motor-template.opi.json",
           "macros": {
             "$(P)": "demo:",
@@ -230,10 +228,10 @@
     ]
   },
   {
-    "id": "TextLabel-538854cd-bf2b-4c8f-98db-cf0a4ad1bc98",
     "widgetName": "TextLabel",
     "properties": {
       "label": "Random movement control",
+      "alias": "",
       "x": -31.5,
       "y": 59,
       "width": 791,
@@ -256,10 +254,10 @@
     }
   },
   {
-    "id": "TextLabel-1f7c82be-0aa6-449e-9f9f-ee14106a98a3",
     "widgetName": "TextLabel",
     "properties": {
       "label": "* Enabled for demo purposes - disable for the motor you want to play with!",
+      "alias": "",
       "x": 113,
       "y": 99,
       "width": 502,
@@ -282,287 +280,275 @@
     }
   },
   {
-    "id": "63703184-a6b6-4e73-acbd-bc1cf33105b3",
-    "widgetName": "Group",
+    "widgetName": "ToggleButton",
     "properties": {
+      "alias": "Toggle M1",
       "x": 77,
       "y": 137,
-      "width": 574,
-      "height": 106
-    },
-    "children": [
-      {
-        "id": "ToggleButton-04e7c94a-a481-4977-863e-7bfb2dfa6826",
-        "widgetName": "ToggleButton",
-        "properties": {
-          "x": 77,
-          "y": 137,
-          "width": 127,
-          "height": 46,
-          "backgroundColor": "#979dac",
-          "borderColor": "#000000",
-          "borderStyle": "none",
-          "borderWidth": 1,
-          "borderRadius": 2,
-          "visible": true,
-          "tooltip": "",
-          "alarmBorder": true,
-          "pvName": "$(P)Mtr1RandomEnable-Cmd",
-          "disabled": false,
-          "labelFromPV": false,
-          "useStringVal": true,
-          "offLabel": "Motor 1",
-          "onLabel": "Motor 1",
-          "onColor": "#00ac25",
-          "offColor": "#ac0000",
-          "fontFamily": "sans-serif",
-          "fontSize": 14,
-          "textHAlign": "center",
-          "textVAlign": "middle",
-          "fontBold": false,
-          "textColor": "#000000",
-          "fontItalic": false,
-          "fontUnderlined": false
-        }
-      },
-      {
-        "id": "ToggleButton-a83926c4-2f92-4e73-b832-6d552986581d",
-        "widgetName": "ToggleButton",
-        "properties": {
-          "x": 225,
-          "y": 137,
-          "width": 127,
-          "height": 46,
-          "backgroundColor": "#979dac",
-          "borderColor": "#000000",
-          "borderStyle": "none",
-          "borderWidth": 1,
-          "borderRadius": 2,
-          "visible": true,
-          "tooltip": "",
-          "alarmBorder": true,
-          "pvName": "$(P)Mtr2RandomEnable-Cmd",
-          "disabled": false,
-          "labelFromPV": false,
-          "useStringVal": true,
-          "offLabel": "Motor 2",
-          "onLabel": "Motor 2",
-          "onColor": "#00ac25",
-          "offColor": "#ac0000",
-          "fontFamily": "sans-serif",
-          "fontSize": 14,
-          "textHAlign": "center",
-          "textVAlign": "middle",
-          "fontBold": false,
-          "textColor": "#000000",
-          "fontItalic": false,
-          "fontUnderlined": false
-        }
-      },
-      {
-        "id": "ToggleButton-b701029e-1027-4b99-9f5a-3c6919bc7525",
-        "widgetName": "ToggleButton",
-        "properties": {
-          "x": 371,
-          "y": 137,
-          "width": 127,
-          "height": 46,
-          "backgroundColor": "#979dac",
-          "borderColor": "#000000",
-          "borderStyle": "none",
-          "borderWidth": 1,
-          "borderRadius": 2,
-          "visible": true,
-          "tooltip": "",
-          "alarmBorder": true,
-          "pvName": "$(P)Mtr3RandomEnable-Cmd",
-          "disabled": false,
-          "labelFromPV": false,
-          "useStringVal": true,
-          "offLabel": "Motor 3",
-          "onLabel": "Motor 3",
-          "onColor": "#00ac25",
-          "offColor": "#ac0000",
-          "fontFamily": "sans-serif",
-          "fontSize": 14,
-          "textHAlign": "center",
-          "textVAlign": "middle",
-          "fontBold": false,
-          "textColor": "#000000",
-          "fontItalic": false,
-          "fontUnderlined": false
-        }
-      },
-      {
-        "id": "ToggleButton-e647ceec-6c60-4fb3-8ceb-65a1d7b2617e",
-        "widgetName": "ToggleButton",
-        "properties": {
-          "x": 522,
-          "y": 137,
-          "width": 127,
-          "height": 46,
-          "backgroundColor": "#979dac",
-          "borderColor": "#000000",
-          "borderStyle": "none",
-          "borderWidth": 1,
-          "borderRadius": 2,
-          "visible": true,
-          "tooltip": "",
-          "alarmBorder": true,
-          "pvName": "$(P)Mtr4RandomEnable-Cmd",
-          "disabled": false,
-          "labelFromPV": false,
-          "useStringVal": true,
-          "offLabel": "Motor 4",
-          "onLabel": "Motor 4",
-          "onColor": "#00ac25",
-          "offColor": "#ac0000",
-          "fontFamily": "sans-serif",
-          "fontSize": 14,
-          "textHAlign": "center",
-          "textVAlign": "middle",
-          "fontBold": false,
-          "textColor": "#000000",
-          "fontItalic": false,
-          "fontUnderlined": false
-        }
-      },
-      {
-        "id": "ToggleButton-c04e6ee7-0a6d-4916-8fca-9c1d9b40406b",
-        "widgetName": "ToggleButton",
-        "properties": {
-          "x": 78,
-          "y": 197,
-          "width": 127,
-          "height": 46,
-          "backgroundColor": "#979dac",
-          "borderColor": "#000000",
-          "borderStyle": "none",
-          "borderWidth": 1,
-          "borderRadius": 2,
-          "visible": true,
-          "tooltip": "",
-          "alarmBorder": true,
-          "pvName": "$(P)Mtr5RandomEnable-Cmd",
-          "disabled": false,
-          "labelFromPV": false,
-          "useStringVal": true,
-          "offLabel": "Motor 5",
-          "onLabel": "Motor 5",
-          "onColor": "#00ac25",
-          "offColor": "#ac0000",
-          "fontFamily": "sans-serif",
-          "fontSize": 14,
-          "textHAlign": "center",
-          "textVAlign": "middle",
-          "fontBold": false,
-          "textColor": "#000000",
-          "fontItalic": false,
-          "fontUnderlined": false
-        }
-      },
-      {
-        "id": "ToggleButton-cd48b39e-6540-49d2-a7bd-f37fb032cd93",
-        "widgetName": "ToggleButton",
-        "properties": {
-          "x": 227,
-          "y": 197,
-          "width": 127,
-          "height": 46,
-          "backgroundColor": "#979dac",
-          "borderColor": "#000000",
-          "borderStyle": "none",
-          "borderWidth": 1,
-          "borderRadius": 2,
-          "visible": true,
-          "tooltip": "",
-          "alarmBorder": true,
-          "pvName": "$(P)Mtr6RandomEnable-Cmd",
-          "disabled": false,
-          "labelFromPV": false,
-          "useStringVal": true,
-          "offLabel": "Motor 6",
-          "onLabel": "Motor 6",
-          "onColor": "#00ac25",
-          "offColor": "#ac0000",
-          "fontFamily": "sans-serif",
-          "fontSize": 14,
-          "textHAlign": "center",
-          "textVAlign": "middle",
-          "fontBold": false,
-          "textColor": "#000000",
-          "fontItalic": false,
-          "fontUnderlined": false
-        }
-      },
-      {
-        "id": "ToggleButton-e969737c-7a7f-4555-bb42-110aa787df78",
-        "widgetName": "ToggleButton",
-        "properties": {
-          "x": 373,
-          "y": 197,
-          "width": 127,
-          "height": 46,
-          "backgroundColor": "#979dac",
-          "borderColor": "#000000",
-          "borderStyle": "none",
-          "borderWidth": 1,
-          "borderRadius": 2,
-          "visible": true,
-          "tooltip": "",
-          "alarmBorder": true,
-          "pvName": "$(P)Mtr7RandomEnable-Cmd",
-          "disabled": false,
-          "labelFromPV": false,
-          "useStringVal": true,
-          "offLabel": "Motor 7",
-          "onLabel": "Motor 7",
-          "onColor": "#00ac25",
-          "offColor": "#ac0000",
-          "fontFamily": "sans-serif",
-          "fontSize": 14,
-          "textHAlign": "center",
-          "textVAlign": "middle",
-          "fontBold": false,
-          "textColor": "#000000",
-          "fontItalic": false,
-          "fontUnderlined": false
-        }
-      },
-      {
-        "id": "ToggleButton-44456e33-a2d3-4726-8625-470492ad0336",
-        "widgetName": "ToggleButton",
-        "properties": {
-          "x": 524,
-          "y": 197,
-          "width": 127,
-          "height": 46,
-          "backgroundColor": "#979dac",
-          "borderColor": "#000000",
-          "borderStyle": "none",
-          "borderWidth": 1,
-          "borderRadius": 2,
-          "visible": true,
-          "tooltip": "",
-          "alarmBorder": true,
-          "pvName": "$(P)Mtr8RandomEnable-Cmd",
-          "disabled": false,
-          "labelFromPV": false,
-          "useStringVal": true,
-          "offLabel": "Motor 8",
-          "onLabel": "Motor 8",
-          "onColor": "#00ac25",
-          "offColor": "#ac0000",
-          "fontFamily": "sans-serif",
-          "fontSize": 14,
-          "textHAlign": "center",
-          "textVAlign": "middle",
-          "fontBold": false,
-          "textColor": "#000000",
-          "fontItalic": false,
-          "fontUnderlined": false
-        }
-      }
-    ]
+      "width": 127,
+      "height": 46,
+      "backgroundColor": "#979dac",
+      "borderColor": "#000000",
+      "borderStyle": "none",
+      "borderWidth": 1,
+      "borderRadius": 2,
+      "visible": true,
+      "tooltip": "$(pvname)",
+      "alarmBorder": true,
+      "pvName": "$(P)Mtr1RandomEnable-Cmd",
+      "disabled": false,
+      "labelFromPV": false,
+      "useStringVal": true,
+      "offLabel": "Motor 1",
+      "onLabel": "Motor 1",
+      "onColor": "#00ac25",
+      "offColor": "#ac0000",
+      "fontFamily": "sans-serif",
+      "fontSize": 14,
+      "textHAlign": "center",
+      "textVAlign": "middle",
+      "fontBold": false,
+      "textColor": "#000000",
+      "fontItalic": false,
+      "fontUnderlined": false
+    }
+  },
+  {
+    "widgetName": "ToggleButton",
+    "properties": {
+      "alias": "Toggle M2",
+      "x": 226,
+      "y": 137,
+      "width": 127,
+      "height": 46,
+      "backgroundColor": "#979dac",
+      "borderColor": "#000000",
+      "borderStyle": "none",
+      "borderWidth": 1,
+      "borderRadius": 2,
+      "visible": true,
+      "tooltip": "$(pvname)",
+      "alarmBorder": true,
+      "pvName": "$(P)Mtr2RandomEnable-Cmd",
+      "disabled": false,
+      "labelFromPV": false,
+      "useStringVal": true,
+      "offLabel": "Motor 2",
+      "onLabel": "Motor 2",
+      "onColor": "#00ac25",
+      "offColor": "#ac0000",
+      "fontFamily": "sans-serif",
+      "fontSize": 14,
+      "textHAlign": "center",
+      "textVAlign": "middle",
+      "fontBold": false,
+      "textColor": "#000000",
+      "fontItalic": false,
+      "fontUnderlined": false
+    }
+  },
+  {
+    "widgetName": "ToggleButton",
+    "properties": {
+      "alias": "Toggle M3",
+      "x": 375,
+      "y": 137,
+      "width": 127,
+      "height": 46,
+      "backgroundColor": "#979dac",
+      "borderColor": "#000000",
+      "borderStyle": "none",
+      "borderWidth": 1,
+      "borderRadius": 2,
+      "visible": true,
+      "tooltip": "$(pvname)",
+      "alarmBorder": true,
+      "pvName": "$(P)Mtr3RandomEnable-Cmd",
+      "disabled": false,
+      "labelFromPV": false,
+      "useStringVal": true,
+      "offLabel": "Motor 3",
+      "onLabel": "Motor 3",
+      "onColor": "#00ac25",
+      "offColor": "#ac0000",
+      "fontFamily": "sans-serif",
+      "fontSize": 14,
+      "textHAlign": "center",
+      "textVAlign": "middle",
+      "fontBold": false,
+      "textColor": "#000000",
+      "fontItalic": false,
+      "fontUnderlined": false
+    }
+  },
+  {
+    "widgetName": "ToggleButton",
+    "properties": {
+      "alias": "Toggle M4",
+      "x": 524,
+      "y": 137,
+      "width": 127,
+      "height": 46,
+      "backgroundColor": "#979dac",
+      "borderColor": "#000000",
+      "borderStyle": "none",
+      "borderWidth": 1,
+      "borderRadius": 2,
+      "visible": true,
+      "tooltip": "$(pvname)",
+      "alarmBorder": true,
+      "pvName": "$(P)Mtr4RandomEnable-Cmd",
+      "disabled": false,
+      "labelFromPV": false,
+      "useStringVal": true,
+      "offLabel": "Motor 4",
+      "onLabel": "Motor 4",
+      "onColor": "#00ac25",
+      "offColor": "#ac0000",
+      "fontFamily": "sans-serif",
+      "fontSize": 14,
+      "textHAlign": "center",
+      "textVAlign": "middle",
+      "fontBold": false,
+      "textColor": "#000000",
+      "fontItalic": false,
+      "fontUnderlined": false
+    }
+  },
+  {
+    "widgetName": "ToggleButton",
+    "properties": {
+      "alias": "Toggle M5",
+      "x": 77,
+      "y": 197,
+      "width": 127,
+      "height": 46,
+      "backgroundColor": "#979dac",
+      "borderColor": "#000000",
+      "borderStyle": "none",
+      "borderWidth": 1,
+      "borderRadius": 2,
+      "visible": true,
+      "tooltip": "$(pvname)",
+      "alarmBorder": true,
+      "pvName": "$(P)Mtr5RandomEnable-Cmd",
+      "disabled": false,
+      "labelFromPV": false,
+      "useStringVal": true,
+      "offLabel": "Motor 5",
+      "onLabel": "Motor 5",
+      "onColor": "#00ac25",
+      "offColor": "#ac0000",
+      "fontFamily": "sans-serif",
+      "fontSize": 14,
+      "textHAlign": "center",
+      "textVAlign": "middle",
+      "fontBold": false,
+      "textColor": "#000000",
+      "fontItalic": false,
+      "fontUnderlined": false
+    }
+  },
+  {
+    "widgetName": "ToggleButton",
+    "properties": {
+      "alias": "Toggle M6",
+      "x": 226,
+      "y": 197,
+      "width": 127,
+      "height": 46,
+      "backgroundColor": "#979dac",
+      "borderColor": "#000000",
+      "borderStyle": "none",
+      "borderWidth": 1,
+      "borderRadius": 2,
+      "visible": true,
+      "tooltip": "$(pvname)",
+      "alarmBorder": true,
+      "pvName": "$(P)Mtr6RandomEnable-Cmd",
+      "disabled": false,
+      "labelFromPV": false,
+      "useStringVal": true,
+      "offLabel": "Motor 6",
+      "onLabel": "Motor 6",
+      "onColor": "#00ac25",
+      "offColor": "#ac0000",
+      "fontFamily": "sans-serif",
+      "fontSize": 14,
+      "textHAlign": "center",
+      "textVAlign": "middle",
+      "fontBold": false,
+      "textColor": "#000000",
+      "fontItalic": false,
+      "fontUnderlined": false
+    }
+  },
+  {
+    "widgetName": "ToggleButton",
+    "properties": {
+      "alias": "Toggle M7",
+      "x": 375,
+      "y": 197,
+      "width": 127,
+      "height": 46,
+      "backgroundColor": "#979dac",
+      "borderColor": "#000000",
+      "borderStyle": "none",
+      "borderWidth": 1,
+      "borderRadius": 2,
+      "visible": true,
+      "tooltip": "$(pvname)",
+      "alarmBorder": true,
+      "pvName": "$(P)Mtr7RandomEnable-Cmd",
+      "disabled": false,
+      "labelFromPV": false,
+      "useStringVal": true,
+      "offLabel": "Motor 7",
+      "onLabel": "Motor 7",
+      "onColor": "#00ac25",
+      "offColor": "#ac0000",
+      "fontFamily": "sans-serif",
+      "fontSize": 14,
+      "textHAlign": "center",
+      "textVAlign": "middle",
+      "fontBold": false,
+      "textColor": "#000000",
+      "fontItalic": false,
+      "fontUnderlined": false
+    }
+  },
+  {
+    "widgetName": "ToggleButton",
+    "properties": {
+      "alias": "Toggle M8",
+      "x": 524,
+      "y": 197,
+      "width": 127,
+      "height": 46,
+      "backgroundColor": "#979dac",
+      "borderColor": "#000000",
+      "borderStyle": "none",
+      "borderWidth": 1,
+      "borderRadius": 2,
+      "visible": true,
+      "tooltip": "$(pvname)",
+      "alarmBorder": true,
+      "pvName": "$(P)Mtr8RandomEnable-Cmd",
+      "disabled": false,
+      "labelFromPV": false,
+      "useStringVal": true,
+      "offLabel": "Motor 8",
+      "onLabel": "Motor 8",
+      "onColor": "#00ac25",
+      "offColor": "#ac0000",
+      "fontFamily": "sans-serif",
+      "fontSize": 14,
+      "textHAlign": "center",
+      "textVAlign": "middle",
+      "fontBold": false,
+      "textColor": "#000000",
+      "fontItalic": false,
+      "fontUnderlined": false
+    }
   }
 ]

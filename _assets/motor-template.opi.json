@@ -1,6 +1,5 @@
 [
   {
-    "id": "__grid__",
     "widgetName": "GridZone",
     "properties": {
       "backgroundColor": "#e9ecef",
@@ -13,9 +12,9 @@
     }
   },
   {
-    "id": "Rectangle-8486e246-579c-4e6a-a758-0c41d8630ba7",
     "widgetName": "Rectangle",
     "properties": {
+      "alias": "",
       "x": -90,
       "y": -124,
       "width": 186,
@@ -30,10 +29,10 @@
     }
   },
   {
-    "id": "TextUpdate-b4e271f7-7f29-4d5c-8afd-c64148a7b0d8",
     "widgetName": "TextUpdate",
     "properties": {
       "label": "Text Update",
+      "alias": "",
       "x": -84,
       "y": -120,
       "width": 174,
@@ -44,7 +43,7 @@
       "borderWidth": 1,
       "borderRadius": 2,
       "visible": true,
-      "tooltip": "",
+      "tooltip": "$(pvname)",
       "alarmBorder": true,
       "fontFamily": "sans-serif",
       "fontSize": 14,
@@ -62,10 +61,10 @@
     }
   },
   {
-    "id": "TextUpdate-88c83d14-eb07-486b-80fa-9fac8fd86c4d",
     "widgetName": "TextUpdate",
     "properties": {
       "label": "Text Update",
+      "alias": "",
       "x": -82,
       "y": -56,
       "width": 170,
@@ -76,7 +75,7 @@
       "borderWidth": 1,
       "borderRadius": 2,
       "visible": true,
-      "tooltip": "",
+      "tooltip": "$(pvname)",
       "alarmBorder": true,
       "fontFamily": "sans-serif",
       "fontSize": 14,
@@ -94,9 +93,9 @@
     }
   },
   {
-    "id": "BitIndicator-10f50269-f096-4269-857b-da60c1c9109a",
     "widgetName": "BitIndicator",
     "properties": {
+      "alias": "",
       "x": -80,
       "y": -86,
       "width": 75,
@@ -105,7 +104,7 @@
       "borderStyle": "none",
       "borderWidth": 1,
       "visible": true,
-      "tooltip": "",
+      "tooltip": "$(pvname)",
       "alarmBorder": true,
       "onColor": "#00ac25",
       "offColor": "rgba(171, 195, 172, 1)",
@@ -124,13 +123,13 @@
     }
   },
   {
-    "id": "InputField-40afd1fc-d46c-4d7b-8621-69c04b0f2bf9",
     "widgetName": "InputField",
     "properties": {
       "pvName": "$(P)$(M).VAL",
       "unitsFromPV": true,
       "units": "",
       "disabled": false,
+      "alias": "",
       "x": -82,
       "y": -24,
       "width": 170,
@@ -141,7 +140,7 @@
       "borderWidth": 1,
       "borderRadius": 2,
       "visible": true,
-      "tooltip": "",
+      "tooltip": "$(pvname)",
       "alarmBorder": true,
       "fontFamily": "sans-serif",
       "fontSize": 14,
@@ -153,9 +152,9 @@
     }
   },
   {
-    "id": "BitIndicator-1f90c657-a48f-4489-a578-517076502db4",
     "widgetName": "BitIndicator",
     "properties": {
+      "alias": "",
       "x": 8,
       "y": -86,
       "width": 76,
@@ -164,7 +163,7 @@
       "borderStyle": "none",
       "borderWidth": 1,
       "visible": true,
-      "tooltip": "",
+      "tooltip": "$(pvname)",
       "alarmBorder": true,
       "onColor": "rgba(172, 0, 0, 1)",
       "offColor": "rgba(216, 191, 191, 1)",
@@ -183,10 +182,10 @@
     }
   },
   {
-    "id": "ActionButton-b64557d9-7fb0-4906-aea1-7c14ff869f65",
     "widgetName": "ActionButton",
     "properties": {
       "label": "<",
+      "alias": "",
       "x": -84,
       "y": 10,
       "width": 34,
@@ -197,7 +196,7 @@
       "borderWidth": 1,
       "borderRadius": 1,
       "visible": true,
-      "tooltip": "",
+      "tooltip": "$(pvname)",
       "alarmBorder": true,
       "fontFamily": "sans-serif",
       "fontSize": 14,
@@ -213,13 +212,13 @@
     }
   },
   {
-    "id": "InputField-b52d9248-a905-49be-bead-3dc46dd0feb8",
     "widgetName": "InputField",
     "properties": {
       "pvName": "$(P)$(M).TWV",
       "unitsFromPV": true,
       "units": "",
       "disabled": false,
+      "alias": "",
       "x": -47,
       "y": 10,
       "width": 98,
@@ -230,7 +229,7 @@
       "borderWidth": 1,
       "borderRadius": 2,
       "visible": true,
-      "tooltip": "",
+      "tooltip": "$(pvname)",
       "alarmBorder": true,
       "fontFamily": "sans-serif",
       "fontSize": 14,
@@ -242,10 +241,10 @@
     }
   },
   {
-    "id": "ActionButton-2dc517c4-644d-466d-8ae1-bd3bcbc75b06",
     "widgetName": "ActionButton",
     "properties": {
       "label": ">",
+      "alias": "",
       "x": 54,
       "y": 10,
       "width": 34,
@@ -256,7 +255,7 @@
       "borderWidth": 1,
       "borderRadius": 1,
       "visible": true,
-      "tooltip": "",
+      "tooltip": "$(pvname)",
       "alarmBorder": true,
       "fontFamily": "sans-serif",
       "fontSize": 14,
@@ -272,10 +271,10 @@
     }
   },
   {
-    "id": "TextUpdate-783f29b1-3210-41af-89cf-8144671c387f",
     "widgetName": "TextUpdate",
     "properties": {
       "label": "Text Update",
+      "alias": "",
       "x": -80,
       "y": 66,
       "width": 78,
@@ -286,7 +285,7 @@
       "borderWidth": 1,
       "borderRadius": 2,
       "visible": true,
-      "tooltip": "",
+      "tooltip": "$(pvname)",
       "alarmBorder": true,
       "fontFamily": "sans-serif",
       "fontSize": 14,
@@ -304,10 +303,10 @@
     }
   },
   {
-    "id": "TextUpdate-394a9de1-37ca-46c6-af59-e6066cc17c2f",
     "widgetName": "TextUpdate",
     "properties": {
       "label": "Text Update",
+      "alias": "",
       "x": 7,
       "y": 66,
       "width": 78,
@@ -318,7 +317,7 @@
       "borderWidth": 1,
       "borderRadius": 2,
       "visible": true,
-      "tooltip": "",
+      "tooltip": "$(pvname)",
       "alarmBorder": true,
       "fontFamily": "sans-serif",
       "fontSize": 14,
@@ -336,10 +335,10 @@
     }
   },
   {
-    "id": "ActionButton-ce1e072a-d14b-48da-a558-ef4c6ed1d00d",
     "widgetName": "ActionButton",
     "properties": {
       "label": "Stop",
+      "alias": "",
       "x": 8,
       "y": 100,
       "width": 76,
@@ -350,7 +349,7 @@
       "borderWidth": 1,
       "borderRadius": 1,
       "visible": true,
-      "tooltip": "",
+      "tooltip": "$(pvname)",
       "alarmBorder": true,
       "fontFamily": "sans-serif",
       "fontSize": 14,
@@ -366,10 +365,10 @@
     }
   },
   {
-    "id": "NavigationButton-4e8b8d09-e554-4333-abc5-ad4706559441",
     "widgetName": "NavigationButton",
     "properties": {
       "label": "Details",
+      "alias": "",
       "x": -79,
       "y": 101,
       "width": 74,
@@ -380,7 +379,7 @@
       "borderWidth": 1,
       "borderRadius": 1,
       "visible": true,
-      "tooltip": "",
+      "tooltip": "$(pvname)",
       "fontFamily": "sans-serif",
       "fontSize": 14,
       "textHAlign": "center",
