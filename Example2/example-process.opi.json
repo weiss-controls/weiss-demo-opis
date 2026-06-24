@@ -88,6 +88,7 @@
       "useStringVal": true,
       "offLabel": "",
       "onLabel": "",
+      "displayFormat": "Default",
       "fontFamily": "sans-serif",
       "fontSize": 14,
       "fontBold": false,
@@ -118,6 +119,7 @@
       "useStringVal": true,
       "offLabel": "",
       "onLabel": "",
+      "displayFormat": "Default",
       "fontFamily": "sans-serif",
       "fontSize": 14,
       "fontBold": false,
@@ -182,6 +184,7 @@
       "useStringVal": true,
       "offLabel": "",
       "onLabel": "",
+      "displayFormat": "Default",
       "fontFamily": "sans-serif",
       "fontSize": 14,
       "fontBold": false,
@@ -219,7 +222,8 @@
       "unitsFromPV": false,
       "units": "Pa",
       "precisionFromPV": true,
-      "precision": -1
+      "precision": -1,
+      "displayFormat": "Default"
     }
   },
   {
@@ -251,7 +255,8 @@
       "unitsFromPV": false,
       "units": "mL/s",
       "precisionFromPV": true,
-      "precision": -1
+      "precision": -1,
+      "displayFormat": "Default"
     }
   },
   {
@@ -283,7 +288,8 @@
       "unitsFromPV": false,
       "units": "Pa",
       "precisionFromPV": true,
-      "precision": -1
+      "precision": -1,
+      "displayFormat": "Default"
     }
   },
   {
@@ -293,6 +299,7 @@
       "unitsFromPV": false,
       "units": "Pa",
       "disabled": false,
+      "displayFormat": "Default",
       "alias": "",
       "x": 200,
       "y": -138,
@@ -344,7 +351,8 @@
       "unitsFromPV": false,
       "units": "mL/s",
       "precisionFromPV": true,
-      "precision": -1
+      "precision": -1,
+      "displayFormat": "Default"
     }
   },
   {
@@ -369,7 +377,8 @@
       "max": 0,
       "limitsFromPV": true,
       "stepSize": 0,
-      "horizontal": true
+      "horizontal": true,
+      "displayFormat": "Default"
     }
   },
   {
@@ -379,6 +388,7 @@
       "unitsFromPV": false,
       "units": "Pa",
       "disabled": false,
+      "displayFormat": "Default",
       "alias": "",
       "x": 358,
       "y": 20,
@@ -430,7 +440,8 @@
       "unitsFromPV": true,
       "units": "",
       "precisionFromPV": true,
-      "precision": -1
+      "precision": -1,
+      "displayFormat": "Default"
     }
   },
   {
@@ -540,7 +551,8 @@
       "unitsFromPV": true,
       "units": "",
       "precisionFromPV": true,
-      "precision": -1
+      "precision": -1,
+      "displayFormat": "Default"
     }
   },
   {
@@ -566,6 +578,7 @@
       "horizontal": false,
       "showValue": true,
       "valuePlcmnt": "middle",
+      "displayFormat": "Default",
       "showPercentage": true,
       "barColor": "rgba(119, 180, 243, 1)",
       "fontFamily": "sans-serif",
@@ -600,6 +613,7 @@
       "useStringVal": true,
       "offLabel": "",
       "onLabel": "",
+      "displayFormat": "Default",
       "fontFamily": "sans-serif",
       "fontSize": 14,
       "fontBold": false,

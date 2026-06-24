@@ -97,7 +97,8 @@
       "max": 0,
       "limitsFromPV": true,
       "stepSize": 0,
-      "horizontal": false
+      "horizontal": false,
+      "displayFormat": "Default"
     }
   },
   {
@@ -259,6 +260,7 @@
       "useStringVal": true,
       "offLabel": "",
       "onLabel": "",
+      "displayFormat": "Default",
       "fontFamily": "sans-serif",
       "fontSize": 14,
       "fontBold": false,
@@ -327,7 +329,8 @@
       "unitsFromPV": true,
       "units": "",
       "precisionFromPV": true,
-      "precision": -1
+      "precision": -1,
+      "displayFormat": "Default"
     }
   },
   {
@@ -351,7 +354,8 @@
       "horizontal": true,
       "invertBitOrder": true,
       "spacing": 1,
-      "pvName": "$(P)ai05"
+      "pvName": "$(P)ai05",
+      "displayFormat": "Default"
     }
   },
   {
@@ -383,7 +387,8 @@
       "unitsFromPV": true,
       "units": "",
       "precisionFromPV": true,
-      "precision": -1
+      "precision": -1,
+      "displayFormat": "Default"
     }
   },
   {
@@ -460,6 +465,7 @@
       "useStringVal": false,
       "offLabel": "",
       "onLabel": "",
+      "displayFormat": "Default",
       "fontFamily": "sans-serif",
       "fontSize": 14,
       "fontBold": false,
@@ -528,7 +534,8 @@
       "unitsFromPV": true,
       "units": "",
       "precisionFromPV": true,
-      "precision": -1
+      "precision": -1,
+      "displayFormat": "Default"
     }
   },
   {
@@ -586,7 +593,8 @@
       "unitsFromPV": true,
       "units": "",
       "precisionFromPV": true,
-      "precision": -1
+      "precision": -1,
+      "displayFormat": "Default"
     }
   },
   {
@@ -618,7 +626,8 @@
       "unitsFromPV": true,
       "units": "",
       "precisionFromPV": true,
-      "precision": -1
+      "precision": -1,
+      "displayFormat": "Default"
     }
   },
   {
@@ -650,7 +659,8 @@
       "unitsFromPV": true,
       "units": "",
       "precisionFromPV": true,
-      "precision": -1
+      "precision": -1,
+      "displayFormat": "Default"
     }
   },
   {
@@ -708,7 +718,8 @@
       "unitsFromPV": true,
       "units": "",
       "precisionFromPV": true,
-      "precision": -1
+      "precision": -1,
+      "displayFormat": "Default"
     }
   },
   {
@@ -766,7 +777,8 @@
       "unitsFromPV": true,
       "units": "",
       "precisionFromPV": true,
-      "precision": -1
+      "precision": -1,
+      "displayFormat": "Default"
     }
   },
   {

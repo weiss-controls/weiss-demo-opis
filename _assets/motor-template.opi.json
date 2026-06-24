@@ -57,7 +57,8 @@
       "unitsFromPV": true,
       "units": "",
       "precisionFromPV": true,
-      "precision": -1
+      "precision": -1,
+      "displayFormat": "Default"
     }
   },
   {
@@ -89,7 +90,8 @@
       "unitsFromPV": true,
       "units": "",
       "precisionFromPV": true,
-      "precision": -1
+      "precision": -1,
+      "displayFormat": "Default"
     }
   },
   {
@@ -114,6 +116,7 @@
       "useStringVal": true,
       "offLabel": "Not moving",
       "onLabel": "Moving",
+      "displayFormat": "Default",
       "fontFamily": "sans-serif",
       "fontSize": 14,
       "fontBold": false,
@@ -129,6 +132,7 @@
       "unitsFromPV": true,
       "units": "",
       "disabled": false,
+      "displayFormat": "Default",
       "alias": "",
       "x": -82,
       "y": -24,
@@ -173,6 +177,7 @@
       "useStringVal": true,
       "offLabel": "No Alarm",
       "onLabel": "Alarm",
+      "displayFormat": "Default",
       "fontFamily": "sans-serif",
       "fontSize": 14,
       "fontBold": false,
@@ -218,6 +223,7 @@
       "unitsFromPV": true,
       "units": "",
       "disabled": false,
+      "displayFormat": "Default",
       "alias": "",
       "x": -47,
       "y": 10,
@@ -299,7 +305,8 @@
       "unitsFromPV": true,
       "units": "",
       "precisionFromPV": true,
-      "precision": -1
+      "precision": -1,
+      "displayFormat": "Default"
     }
   },
   {
@@ -331,7 +338,8 @@
       "unitsFromPV": true,
       "units": "",
       "precisionFromPV": true,
-      "precision": -1
+      "precision": -1,
+      "displayFormat": "Default"
     }
   },
   {
