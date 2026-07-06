@@ -550,5 +550,57 @@
       "fontItalic": false,
       "fontUnderlined": false
     }
+  },
+  {
+    "widgetName": "TextLabel",
+    "properties": {
+      "label": "PS: first motor stuck is a motorSim issue.",
+      "alias": "Text Label 4",
+      "x": -1116,
+      "y": -220,
+      "width": 298,
+      "height": 27,
+      "backgroundColor": "transparent",
+      "borderColor": "#000000",
+      "borderStyle": "none",
+      "borderWidth": 1,
+      "borderRadius": 2,
+      "visible": true,
+      "tooltip": "",
+      "fontFamily": "sans-serif",
+      "fontSize": 13,
+      "textHAlign": "right",
+      "textVAlign": "middle",
+      "fontBold": false,
+      "textColor": "#000000",
+      "fontItalic": false,
+      "fontUnderlined": false
+    }
+  },
+  {
+    "widgetName": "TextLabel",
+    "properties": {
+      "label": "Fixed on motor R7-4, to be updated here soon",
+      "alias": "Text Label 4",
+      "x": -1116,
+      "y": -196,
+      "width": 298,
+      "height": 28,
+      "backgroundColor": "transparent",
+      "borderColor": "#000000",
+      "borderStyle": "none",
+      "borderWidth": 1,
+      "borderRadius": 2,
+      "visible": true,
+      "tooltip": "",
+      "fontFamily": "sans-serif",
+      "fontSize": 13,
+      "textHAlign": "right",
+      "textVAlign": "middle",
+      "fontBold": false,
+      "textColor": "#000000",
+      "fontItalic": false,
+      "fontUnderlined": false
+    }
   }
 ]
