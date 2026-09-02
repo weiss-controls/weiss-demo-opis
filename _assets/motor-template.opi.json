@@ -8,6 +8,7 @@
       "gridLineVisible": true,
       "snapToGrid": true,
       "centerVisible": false,
+      "guidesVisible": true,
       "macros": {}
     }
   },
@@ -111,6 +112,7 @@
       "onColor": "#00ac25",
       "offColor": "rgba(171, 195, 172, 1)",
       "square": true,
+      "fixedProportion": true,
       "pvName": "$(P)$(M).MOVN",
       "labelFromPV": false,
       "useStringVal": true,
@@ -172,6 +174,7 @@
       "onColor": "rgba(172, 0, 0, 1)",
       "offColor": "rgba(216, 191, 191, 1)",
       "square": true,
+      "fixedProportion": true,
       "pvName": "$(P)$(M).SEVR",
       "labelFromPV": false,
       "useStringVal": true,
@@ -397,7 +400,9 @@
       "fontItalic": false,
       "fontUnderlined": false,
       "displayPath": "",
-      "disabled": true
+      "target": "",
+      "disabled": true,
+      "macros": {}
     }
   }
 ]

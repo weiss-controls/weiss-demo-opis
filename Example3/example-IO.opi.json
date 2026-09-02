@@ -8,6 +8,7 @@
       "gridLineVisible": false,
       "snapToGrid": true,
       "centerVisible": false,
+      "guidesVisible": true,
       "macros": {
         "$(P)": "demo:"
       }
@@ -65,6 +66,9 @@
       "plotBufferSize": 80,
       "plotLineStyle": "lines",
       "showLegend": true,
+      "legendOrient": "horizontal",
+      "legendVAlign": "top",
+      "legendHAlign": "right",
       "fontFamily": "sans-serif",
       "fontSize": 14,
       "textHAlign": "center",
@@ -255,6 +259,7 @@
       "onColor": "#00ac25",
       "offColor": "#ac0000",
       "square": false,
+      "fixedProportion": true,
       "pvName": "$(P)bi03",
       "labelFromPV": true,
       "useStringVal": true,
@@ -297,7 +302,9 @@
       "enumChoices": [
         ""
       ],
-      "labelFromPV": true
+      "labelFromPV": true,
+      "textVAlign": "middle",
+      "textHAlign": "left"
     }
   },
   {
@@ -460,6 +467,7 @@
       "onColor": "rgba(255, 255, 0, 1)",
       "offColor": "rgba(233, 236, 239, 1)",
       "square": true,
+      "fixedProportion": true,
       "pvName": "$(P)bi04",
       "labelFromPV": true,
       "useStringVal": false,
@@ -502,7 +510,9 @@
       "enumChoices": [
         ""
       ],
-      "labelFromPV": true
+      "labelFromPV": true,
+      "textVAlign": "middle",
+      "textHAlign": "left"
     }
   },
   {

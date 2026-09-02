@@ -8,6 +8,7 @@
       "gridLineVisible": false,
       "snapToGrid": true,
       "centerVisible": false,
+      "guidesVisible": true,
       "macros": {
         "$(P)": "demo:"
       }
@@ -83,6 +84,7 @@
       "onColor": "#00ac25",
       "offColor": "rgba(172, 0, 0, 1)",
       "square": false,
+      "fixedProportion": true,
       "pvName": "$(P)bo02",
       "labelFromPV": true,
       "useStringVal": true,
@@ -114,6 +116,7 @@
       "onColor": "#00ac25",
       "offColor": "rgba(172, 0, 0, 1)",
       "square": false,
+      "fixedProportion": true,
       "pvName": "$(P)bo01",
       "labelFromPV": true,
       "useStringVal": true,
@@ -179,6 +182,7 @@
       "onColor": "#00ac25",
       "offColor": "rgba(172, 0, 0, 1)",
       "square": false,
+      "fixedProportion": true,
       "pvName": "$(P)bo01",
       "labelFromPV": true,
       "useStringVal": true,
@@ -608,6 +612,7 @@
       "onColor": "#00ac25",
       "offColor": "rgba(172, 0, 0, 1)",
       "square": false,
+      "fixedProportion": true,
       "pvName": "$(P)bo02",
       "labelFromPV": true,
       "useStringVal": true,
