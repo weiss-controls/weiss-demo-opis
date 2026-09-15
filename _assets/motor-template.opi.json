@@ -9,7 +9,9 @@
       "snapToGrid": true,
       "centerVisible": false,
       "guidesVisible": true,
-      "macros": {}
+      "macros": {
+        "": ""
+      }
     }
   },
   {
@@ -55,7 +57,7 @@
       "fontItalic": false,
       "fontUnderlined": false,
       "pvName": "$(P)$(M).DESC",
-      "unitsFromPV": true,
+      "unitsFromPV": false,
       "units": "",
       "precisionFromPV": true,
       "precision": -1,
